@@ -1,0 +1,8 @@
+<div *ngFor="let item of resData"> {{item.id}}</div>
+<div>{{resData}}</div>
+<div>currency pipe</div>
+ {{ curr | currency: 'INR'}}
+ <div>Custom pipe</div>
+ {{ custpipe | pipeWithDate}}
+ <div>custom Directives</div>
+ <span appHighlightEle = 'green'> custom Directives Highlight this</span>
